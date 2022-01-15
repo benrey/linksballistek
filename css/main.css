@@ -172,7 +172,7 @@ h1{
 }
 .navbar-icon{
   margin: 0.75em auto;
-  font-size: 2rem;
+  font-size: 3em;
   color: var(--cutltured);
 }
 .navbar-toggler{
@@ -188,13 +188,13 @@ h1{
 .icons {
   
   margin-top: 2em;
-  margin: .2em;
+  margin: .1em;
   padding-right: .1em;
 }
 .icons .nav-icons{
   color: var(--cultured);
   margin: 0em;
-  padding: .15em;
+  padding: .05em;
   font-size: 2em;
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
@@ -212,6 +212,7 @@ h1{
 
 .fa-instagram {
 border-radius: 30%;
+background-position: center center;
 background-image: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
 background-image: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 background-image: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
