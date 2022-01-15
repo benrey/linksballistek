@@ -1,0 +1,206 @@
+:root{
+    --darkblack:#000000;
+    --richBlack:#0B090A;
+    --eerieBlack:#161a1d;
+    --bloodRed: #660708;
+    --rubyRed: #a4161a;
+    --carnelian: #ba181b;
+    --imperialRed: #e5383b;
+    --lightGray: #d3d3d3;
+    --cutltured: #f5f3f4;
+    --white: #ffffff;
+   
+}
+.username{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--cultured)
+}
+
+body{
+  overflow-x:hidden;
+  font-family:Verdana, Tahoma, sans-serif;
+  color: var(--cutltured);
+  font-size: 1.5em;
+  text-rendering: optimizeLegibility;
+  margin:0px;
+  padding:0px;
+  width: 100%;
+  height: 100vh;
+}
+
+#slideShow{
+  overflow-x:hidden;
+  background-attachment: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width:100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-animation: slideShow 30s linear infinite;
+  -moz-animation: slideShow 30s linear infinite;
+  -o-animation: slideShow 30s linear infinite;
+  animation: slideShow 30s linear infinite;
+  animation-timing-function: ease-in-out;
+  background-image: url("/img/DSC05669-Edit.jpeg");
+  
+  }
+  
+  
+    @keyframes slideShow{
+      0% {
+        background-image: url("/img/DSC05669-Edit.jpeg"), url ("/img/DSC0109-Edit.jpeg")
+      }
+      20% {
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
+      }
+      30%{
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+      }
+      40%{
+        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      }
+      50%{
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
+      }
+      60%{
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
+      }
+      70%{
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+      }
+      100%{
+        background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      }
+    }
+  
+
+.tree {
+  color: var(--cultured);
+  margin-top: 30px;
+  margin-bottom:5px;
+  text-align: center;
+  width: 100%;
+  max-width: auto;
+  text-transform;
+  font-weight: 500px;
+}
+.whoiam {
+  color: var(--cultured);
+  margin-bottom: 5px;
+  padding-right: .1em;
+  font-size: 1.5em;
+  transition:all 2s ease-in-out;
+  transition-delay: 1ms;
+  transition-duration: 20ms;
+}
+.links {
+  width:100%;
+  min-height:49px;
+  height:40%;
+  max-height:10px;
+  overflow:hidden;
+  display:inline-block;
+}
+.tree .footer {
+  margin: 2rem;
+}
+.tree .profile-pic {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+.btn {
+  background-color: var(--white);
+  border: none;
+  color:#000000;
+  -webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow:         5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.btn:hover {
+    background-color: var(--cutltured);
+    border: none;
+    outline: none;
+    color: #161a1d;
+    -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+.btn:active {
+  background-color: var(--cultured);
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #161a1d;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+
+h1{
+    color:var(--cultured)
+}
+/* navbar */
+.navbar{
+  background: var(--mainWhite);
+  transition:all 2s ease-in-out;
+}
+.navbar.transparent.navbar-inverse .navbar-inner {
+  background: rgba(0,0,0,0.4);
+}
+.navbar-change{
+  position:fixed;
+  width: 100%;
+  padding: 1rem;
+  background: rgba(0,0,0,0.4);
+  z-index: 100;
+
+}
+.navbar-icon{
+  margin: 0.75em auto;
+  font-size: 2rem;
+  color: var(--cutltured);
+}
+.navbar-toggler{
+  outline-color: var(--cutltured)!important;
+}
+.nav-link{
+  color: var(--cutltured);
+  text-transform: capitalize;
+}
+.nav-link:hover{
+  color: var(--cutltured);
+}
+.icons {
+  
+  margin-top: 2em;
+  margin: .2em;
+  padding-right: .1em;
+}
+.icons .nav-icons{
+  color: var(--cultured);
+  margin: 0em;
+  padding: .15em;
+  font-size: 2em;
+  transition:all 2s ease-in-out;
+  transition-delay: 1ms;
+  transition-duration: 20ms;
+}
+.nav-icons:hover{
+  color: var(--cutltured);
+}
+.footer{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--cultured);
+  font-size:x-small;
+}
