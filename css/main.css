@@ -73,11 +73,14 @@ body{
       70%{
         background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
       }
-      99%{
+      90%{
         background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
       }
-      100% {
+      99% {
         background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
+      }
+      100% {
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
       }
     }
   
