@@ -202,25 +202,16 @@ h1{
 }
 
 .fa-youtube {
+  padding-left: .17em;
   filter: invert(60%) sepia(90%) saturate(4407%) hue-rotate(343deg) brightness(97%) contrast(99%) opacity(1);
 }
-
 .fa-tiktok {
   color: var(--darkblack);
   filter: drop-shadow(-.05em -0.1rem 0.05em rgba(20, 99, 99, 1)) drop-shadow(0.05em 0.1rem 0.05em rgba(220, 39, 67, 0.9));
 }
-
-.fa-instagram {
-border-radius: 50%;
-background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-background-position: 2px 6.25px;
-background-size: 90% 77%;
-background-repeat: no-repeat;
+.radial svg * {
+  fill:url(#rg);
 }
-
 .nav-icons:hover{
   color: var(--cutltured);
 }
