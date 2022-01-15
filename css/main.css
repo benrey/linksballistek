@@ -43,7 +43,6 @@ body{
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-animation: slideShow 30s linear infinite;
-  -moz-animation: slideShow 30s linear infinite;
   -o-animation: slideShow 30s linear infinite;
   animation: slideShow 30s linear infinite;
   animation-timing-function: ease-in-out;
@@ -53,8 +52,8 @@ body{
   
   
     @keyframes slideShow{
-      0% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url ("/img/DSC0109-Edit.jpeg")
+      1% {
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
       }
       20% {
         background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
@@ -74,8 +73,11 @@ body{
       70%{
         background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
       }
-      100%{
+      99%{
         background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      }
+      100% {
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
       }
     }
   
@@ -129,16 +131,15 @@ body{
     background-color: var(--cutltured);
     border: none;
     outline: none;
-    color: #161a1d;
+    color: var(--lightGray);
     -webkit-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
 }
-.btn:active {
+.btn:active, .btn:focus, .btn:target {
   background-color: var(--cultured);
-  border: none;
+  border: transparent;
   outline: none;
-  box-shadow: none;
   color: #161a1d;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
