@@ -53,7 +53,7 @@ body{
   
     @keyframes slideShow{
       1% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
       }
       20% {
         background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
@@ -77,10 +77,10 @@ body{
         background-image: url("/img/Jin-65.jpeg"), url("/img/DSC05669-Edit.jpeg")
       }
       99% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
+        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
       }
       100% {
-        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/DSC0109-Edit.jpeg")
+        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
       }
     }
   
