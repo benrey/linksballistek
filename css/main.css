@@ -40,116 +40,117 @@ body{
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-animation: webkit-slideShow 45s 0.1s linear infinite;
-  -moz-animation: moz-slideShow 45s 0.1s linear infinite;
-  -o-animation: o-slideShow 45s 0.1s linear infinite;
-  -ms-animation: ms-slideShow 45s 0.1s linear infinite;
-  animation: slideShow 45s 0.1s linear infinite;
+  -webkit-animation: webkit-slideShow 15s 0.1s linear infinite;
+  -moz-animation: moz-slideShow 15s 0.1s linear infinite;
+  -o-animation: o-slideShow 15s 0.1s linear infinite;
+  -ms-animation: ms-slideShow 15s 0.1s linear infinite;
+  animation: slideShow 15s 0.1s linear infinite;
   animation-timing-function: ease-in-out;
-  background-image: url("../img/s2ks-054.png");
-  
+  background-image: url("/img/s2ks-054.png"), url("/img/s2ks-054.png");
   }
+
+
   @keyframes slideShow{
     0% {
-      background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+      background-image: url("/img/s2ks-054.png"), url("/img/s2ks-022.png");
     }
     15% {
-      background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+      background-image: url("/img/s2ks-022.png"), url("/img/Jin-60.jpeg");
     }
     30%{
-      background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+      background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
     }
     55%{
-      background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+      background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
     }
     75%{
-      background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
     }
     100%{
-      background-image: url("../img/s2ks-054.png")
+      background-image: url("/img/s2ks-054.png");
     }
   }
   @-ms-keyframes slideShow{
     0% {
-      background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+      background-image: url("/img/s2ks-054.png"), url("/img/s2ks-022.png");
     }
     15% {
-      background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+      background-image: url("/img/s2ks-022.png"), url("/img/Jin-60.jpeg");
     }
     30%{
-      background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+      background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
     }
     55%{
-      background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+      background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
     }
     75%{
-      background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
     }
     100%{
-      background-image: url("../img/s2ks-054.png")
+      background-image: url("/img/s2ks-054.png");
     }
   }
 
   @-webkit-keyframes webkit-slideShow{
       0% {
-        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+        background-image: url("/img/s2ks-054.png"), url("/img/s2ks-022.png");
       }
       15% {
-        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+        background-image: url("/img/s2ks-022.png"), url("/img/Jin-60.jpeg");
       }
       30%{
-        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
       55%{
-        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+        background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
       75%{
-        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
       }
       100%{
-        background-image: url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-054.png");
       }
     }
 
     @-moz-keyframes moz-slideShow{
       0% {
-        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+        background-image: url("/img/s2ks-054.png"), url("/img/s2ks-022.png");
       }
       15% {
-        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+        background-image: url("/img/s2ks-022.png"), url("/img/Jin-60.jpeg");
       }
       30%{
-        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
       55%{
-        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+        background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
       75%{
-        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
       }
       100%{
-        background-image: url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-054.png");
       }
     }
 
     @-o-keyframes o-slideShow{
       0% {
-        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+        background-image: url("/img/s2ks-054.png"), url("/img/s2ks-022.png");
       }
       15% {
-        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+        background-image: url("/img/s2ks-022.png"), url("/img/Jin-60.jpeg");
       }
       30%{
-        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
       55%{
-        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+        background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
       75%{
-        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
       }
       100%{
-        background-image: url("../img/s2ks-054.png")
+        background-image: url("/img/s2ks-054.png");
       }
     }
 
@@ -271,11 +272,11 @@ h1{
 
 .fa-youtube {
   padding-left: .17em;
-  filter: invert(60%) sepia(90%) saturate(4407%) hue-rotate(343deg) brightness(97%) contrast(99%) opacity(1);
+  filter: invert(60%) sepia(90%) saturate(4407%) hue-rotate(343deg) brightness(97%) contrast(100%) opacity(1);
 }
 .fa-tiktok {
   color: var(--darkblack);
-  filter: drop-shadow(-.05em -0.1rem 0.05em rgba(20, 99, 99, 1)) drop-shadow(0.05em 0.1rem 0.05em rgba(220, 39, 67, 0.9));
+  filter: drop-shadow(-.05em -0.1rem 0.05em rgba(20, 100, 100, 1)) drop-shadow(0.05em 0.1rem 0.05em rgba(220, 39, 67, 0.9));
 }
 .radial svg * {
   fill:url(#rg);
