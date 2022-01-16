@@ -28,62 +28,130 @@ body{
   height: 100vh;
 }
 
+
 #slideShow{
   overflow-x:hidden;
   background-attachment: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  background-size: cover;
   width:100%;
   height: 100%;
-  background-size: cover;
   background-position: center center;
-  background-size: cover;
   background-repeat: no-repeat;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -webkit-animation: slideShow 30s linear infinite;
-  -o-animation: slideShow 30s linear infinite;
-  animation: slideShow 30s linear infinite;
+  -webkit-animation: webkit-slideShow 45s 0.1s linear infinite;
+  -moz-animation: moz-slideShow 45s 0.1s linear infinite;
+  -o-animation: o-slideShow 45s 0.1s linear infinite;
+  -ms-animation: ms-slideShow 45s 0.1s linear infinite;
+  animation: slideShow 45s 0.1s linear infinite;
   animation-timing-function: ease-in-out;
-  background-image: url("/img/DSC05669-Edit.jpeg");
+  background-image: url("../img/s2ks-054.png");
   
   }
-  
-  
-    @keyframes slideShow{
-      1% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC_0109-Edit.jpeg")
+  @keyframes slideShow{
+    0% {
+      background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+    }
+    15% {
+      background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+    }
+    30%{
+      background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+    }
+    55%{
+      background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+    }
+    75%{
+      background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+    }
+    100%{
+      background-image: url("../img/s2ks-054.png")
+    }
+  }
+  @-ms-keyframes slideShow{
+    0% {
+      background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+    }
+    15% {
+      background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+    }
+    30%{
+      background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+    }
+    55%{
+      background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+    }
+    75%{
+      background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+    }
+    100%{
+      background-image: url("../img/s2ks-054.png")
+    }
+  }
+
+  @-webkit-keyframes webkit-slideShow{
+      0% {
+        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
       }
-      20% {
-        background-image: url("/img/DSC_0109-Edit.jpeg"), url("/img/Jin-60.jpeg")
+      15% {
+        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
       }
       30%{
-        background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg")
+        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
       }
-      40%{
-        background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png")
+      55%{
+        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
       }
-      50%{
-        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-126.png")
+      75%{
+        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
       }
-      60%{
-        background-image: url("/img/s2ks-126.png"), url("/img/s2ks-053.png")
-      }
-      70%{
-        background-image: url("/img/s2ks-053.png"), url("/img/IMG_3976.png")
-      }
-      90%{
-        background-image: url("/img/IMG_3976.png"), url("/img/IMG_3994.png")
-      }
-      99% {
-        background-image: url("/img/IMG_3994.png"), url("/img/DSC05669-Edit.jpeg")
-      }
-      100% {
-        background-image: url("/img/DSC05669-Edit.jpeg"), url("/img/DSC05669-Edit.jpeg")
+      100%{
+        background-image: url("../img/s2ks-054.png")
       }
     }
-  
+
+    @-moz-keyframes moz-slideShow{
+      0% {
+        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+      }
+      15% {
+        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+      }
+      30%{
+        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+      }
+      55%{
+        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+      }
+      75%{
+        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+      }
+      100%{
+        background-image: url("../img/s2ks-054.png")
+      }
+    }
+
+    @-o-keyframes o-slideShow{
+      0% {
+        background-image: url("../img/s2ks-054.png"), url("../img/s2ks-022.png")
+      }
+      15% {
+        background-image: url("../img/s2ks-022.png"), url("../img/Jin-60.jpeg")
+      }
+      30%{
+        background-image: url("../img/Jin-60.jpeg"), url("../img/Jin-65.jpeg")
+      }
+      55%{
+        background-image: url("../img/Jin-65.jpeg"), url("../img/s2ks-022.png")
+      }
+      75%{
+        background-image: url("../img/s2ks-022.png"), url("../img/s2ks-054.png")
+      }
+      100%{
+        background-image: url("../img/s2ks-054.png")
+      }
+    }
 
 .tree {
   color: var(--cultured);
