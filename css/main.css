@@ -40,11 +40,11 @@ body{
   height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  -webkit-animation: webkit-slideShow 15s 0.1s linear infinite;
-  -moz-animation: moz-slideShow 15s 0.1s linear infinite;
-  -o-animation: o-slideShow 15s 0.1s linear infinite;
-  -ms-animation: ms-slideShow 15s 0.1s linear infinite;
-  animation: slideShow 15s 0.1s linear infinite;
+  -webkit-animation: webkit-slideShow 35s 0.1s linear infinite;
+  -moz-animation: moz-slideShow 35s 0.1s linear infinite;
+  -o-animation: o-slideShow 35s 0.1s linear infinite;
+  -ms-animation: ms-slideShow 35s 0.1s linear infinite;
+  animation: slideShow 35s 0.1s linear infinite;
   animation-timing-function: ease-in-out;
   background-image: url("/img/s2ks-054.png"), url("/img/s2ks-054.png");
   }
