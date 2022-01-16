@@ -29,6 +29,7 @@ body{
 }
 
 
+
 #slideShow{
   overflow-x:hidden;
   background-attachment: cover;
@@ -135,10 +136,10 @@ body{
         background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
       60%{
-        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-139.png");
       }
       75%{
-        background-image: url("/img/s2ks-054.png"), url("/img/s2ks-054.png");
+        background-image: url("/img/s2ks-139.png"), url("/img/s2ks-054.png");
       }
       100%{
         background-image: url("/img/s2ks-054.png");
