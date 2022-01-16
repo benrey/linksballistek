@@ -60,11 +60,14 @@ body{
     30%{
       background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
     }
-    55%{
+    45%{
       background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
     }
+    60%{
+      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-139.png");
+    }
     75%{
-      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+      background-image: url("/img/s2ks-139.png"), url("/img/s2ks-054.png");
     }
     100%{
       background-image: url("/img/s2ks-054.png");
@@ -80,11 +83,14 @@ body{
     30%{
       background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
     }
-    55%{
+    45%{
       background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
     }
+    60%{
+      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-139.png");
+    }
     75%{
-      background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+      background-image: url("/img/s2ks-139.png"), url("/img/s2ks-054.png");
     }
     100%{
       background-image: url("/img/s2ks-054.png");
@@ -101,11 +107,14 @@ body{
       30%{
         background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
-      55%{
+      45%{
         background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
+      60%{
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-139.png");
+      }
       75%{
-        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+        background-image: url("/img/s2ks-139.png"), url("/img/s2ks-054.png");
       }
       100%{
         background-image: url("/img/s2ks-054.png");
@@ -122,11 +131,14 @@ body{
       30%{
         background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
-      55%{
+      45%{
         background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
-      75%{
+      60%{
         background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+      }
+      75%{
+        background-image: url("/img/s2ks-054.png"), url("/img/s2ks-054.png");
       }
       100%{
         background-image: url("/img/s2ks-054.png");
@@ -143,11 +155,14 @@ body{
       30%{
         background-image: url("/img/Jin-60.jpeg"), url("/img/Jin-65.jpeg");
       }
-      55%{
+      45%{
         background-image: url("/img/Jin-65.jpeg"), url("/img/s2ks-022.png");
       }
+      60%{
+        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-139.png");
+      }
       75%{
-        background-image: url("/img/s2ks-022.png"), url("/img/s2ks-054.png");
+        background-image: url("/img/s2ks-139.png"), url("/img/s2ks-054.png");
       }
       100%{
         background-image: url("/img/s2ks-054.png");
@@ -166,12 +181,15 @@ body{
 }
 .whoiam {
   color: var(--cultured);
+  font-family: roboto;
   margin-bottom: 5px;
   padding-right: .1em;
   font-size: 1.5em;
   transition:all 2s ease-in-out;
   transition-delay: 1ms;
   transition-duration: 20ms;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.3); ;
+
 }
 .links {
   width:100%;
