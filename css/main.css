@@ -12,18 +12,6 @@
    
 }
 
-/*fix for screen sizes */
-@media (min-height:640px), screen and (orientation:portrait) {
-  section {
-    background-attachment:initial;
-    background-image: initial;
-  }
-  div{position:relative;}
-}
-.username{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--cultured)
-}
 
 body{
   overflow-x:hidden;
@@ -316,4 +304,12 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: var(--cultured);
   font-size:x-small;
+}
+
+/*fix for screen sizes */
+@media (max-width:1284px), screen and (orientation:portrait) {
+  section {
+  background-attachment:initial;
+}
+div{position:relative;}
 }
