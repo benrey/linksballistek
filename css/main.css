@@ -23,19 +23,31 @@ body{
   padding:0px;
   width: 100%;
   height: 100vh;
+  background: url(/img/s2ks-054.png) no-repeat center center fixed; 
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
 }
 
 
 
-#slideShow{
+.slideShow{
   overflow-x:hidden;
-  background-attachment: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width:100%;
-  height: 100%;
+  min-width:100%;
+  min-height: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-animation: webkit-slideShow 35s 0.1s linear infinite;
@@ -46,6 +58,20 @@ body{
   animation-timing-function: ease-in-out;
   background-image: url("/img/s2ks-054.png"), url("/img/s2ks-054.png");
   }
+  .slideshow:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url("img/s2ks-054.png"), url("/img/s2ks-054.png") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 
   @keyframes slideShow{
@@ -307,9 +333,9 @@ h1{
 }
 
 /*fix for screen sizes */
-@media (max-width:1284px), screen and (orientation:portrait) {
+@media (min-device-width :300px) and (max-device-width: 1787px) {
   section {
-  background-attachment:initial;
-}
-div{position:relative;}
+  background-size:cover;
+  background-attachment: scroll;
+  overflow:hidden;
 }
